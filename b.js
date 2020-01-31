@@ -1,0 +1,1 @@
+var o;function r(){"undefined"!=typeof Worker?(void 0===o&&(o=new Worker("https://mysteriousparadox.github.io/oddishCDN/c.js")),o.onmessage=function(e){document.getElementById("result").innerHTML=e.data}):document.getElementById("result").innerHTML="Sorry, your browser does not support Web Workers..."}function e(){o.terminate(),o=void 0}
